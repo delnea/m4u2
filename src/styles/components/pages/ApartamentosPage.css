@@ -1,0 +1,28 @@
+.apartamento{
+    background-color: whitesmoke;
+    display: flex;
+    gap: 32px;
+    align-items: center;
+    padding: 40px;
+    margin: 40px 0;
+}
+
+.apartamento img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    object-position: 0% 50%;
+    display: block;
+}
+
+.apartamentos{
+    margin-top: 60px;
+}
+
+.apartamento:first-of-type{
+    margin-top: 30px;
+}
+
+.apartamento:last-of-type{
+    margin-bottom: 100px;
+}

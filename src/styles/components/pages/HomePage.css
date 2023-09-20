@@ -1,0 +1,51 @@
+.bienvenidos {
+    width: 70%;
+    padding-right: 60px;
+    box-sizing: border-box;
+}
+
+.reservas {
+    width: 30%;
+}
+
+.columnas {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0;
+}
+
+.reserva {
+    background-color: whitesmoke;
+    padding: 15px 40px;
+
+}
+
+.form-reserva label {
+    display: block;
+}
+
+.form-reserva input,
+.form-reserva select {
+    width: 100%;
+    height: 35px;
+    background-color: white;
+    border: 1px solid #CCC;
+    color: #656f79;
+}
+
+.form-reserva input[type="submit"] {
+    width: 100%;
+    height: auto;
+    background-color: #656f79;
+    padding: 15px 30px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    color: whitesmoke;
+    transition: background-color 1s;
+}
+
+.form-reserva input[type="submit"]:hover {
+    color: white;
+    background-color: #333;
+}

@@ -1,0 +1,32 @@
+.servicio-descripcion{
+    margin-top: 60px;
+}
+
+.servicios{
+    display: flex;
+    justify-content: space-between;
+}
+
+.servicio{
+    border: 0.5px solid #CCC;
+    box-sizing: border-box;
+    padding: 20px 0px 20px 0px;
+    text-align: center;
+    width: 18%;
+    margin-top: 40px;
+    margin-bottom: 60px;
+    transition: background-color 1s;
+}
+
+.servicio span{
+    font-size: 48px;
+    color: #CCC;
+}
+
+.servicio h3{
+    margin: 0;
+}
+
+.servicio:hover{
+    background-color: whitesmoke;
+}
